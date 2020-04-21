@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> Scratch </title>
+    </head>
+    <body>
+        <h1> Scribbling Area </h1>
+        <canvas class="sketchpad" id="sketchpad"><canvas>
+    </body>
+    <script>
+        window.onload = () => {
+            var sketchpad = new Sketchpad({
+            element: '#sketchpad',
+            width: 400,
+            height: 400
+        });
+        }
+    </script>
+</html>
